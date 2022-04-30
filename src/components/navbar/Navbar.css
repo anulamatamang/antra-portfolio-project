@@ -1,4 +1,4 @@
-/* Navigation */
+/* Navigation
 .navigation {
     position: absolute;
     width: 100%;
@@ -35,4 +35,20 @@
     text-decoration: none;
     color: white;
     border-bottom: 2px solid #f5f5f5;
+} */
+
+.navigation {
+    width: 100%;
+    background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1));
+
+    position: absolute;
+    padding: 10px 0px;
+}
+
+.primary-nav ul{
+    display: flex;
+    gap: 2em;
+    font-size: 1.2em;
+    /* color: hsl(var(--clr-white)/1); */
+    color: white;
 }
