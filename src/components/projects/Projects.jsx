@@ -7,6 +7,10 @@ function Projects() {
   return (
     <div class='projects' id='projects'>
       <div class='container-fluid margin-inline-auto'>
+        <div className='project-container-header'>
+          <h2>Projects and Portfolio</h2>
+          <em>Sharing my endeavors and passions...</em>
+        </div>
         <div className='projects-display-container'>
           {projects.map((project) => {
             return (

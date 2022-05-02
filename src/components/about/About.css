@@ -12,7 +12,7 @@
 .about-container {
     width: 65%;
     margin: 0 auto;
-    border: 1px solid red;
+
     display: flex;
     flex-direction: column;
     gap: 2.5em;
