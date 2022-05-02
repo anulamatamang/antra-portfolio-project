@@ -7,7 +7,7 @@ import Contact from '../../components/contact/Contact';
 import Footer from '../../components/footer/Footer';
 import Projects from '../../components/projects/Projects';
 
-function Home() {
+function HomePage() {
   return (
     <>
       <Navbar />
@@ -21,4 +21,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;

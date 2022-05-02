@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar/Navbar';
 import Projects from '../../components/projects/Projects';
 import Footer from '../../components/footer/Footer';
 
-function Portfolio() {
+function PortfolioPage() {
   return (
     <>
       <Navbar />
@@ -13,4 +13,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default PortfolioPage;
