@@ -1,65 +1,44 @@
 import React from 'react'
 import Button from '../button/Button'
+import './About.css'
 
 function About() {
   return (
-    <div class = "about" id="about">
-			<div class = "container-fluid">
-				<div class = "row">
-					<div class = "col-sm-12 col-md-12 text-center">
-						<div class = "about-header">
-							<h1>About Me</h1>
-						</div>
-					</div>
+    <div className = "about text-dark" >
+		
+				<div className="about-container">
+
+			
+				<div className="about-header">
+					<h2>About Me</h2>
+					<em>Sharing a little bit of my story</em>
+				</div>
+				<div className="about-general-overview">
+					<h3>General Overview</h3>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio ratione nostrum iure maiores ducimus nobis, repellendus accusantium aliquam? Aut modi laboriosam est culpa porro nihil soluta, impedit illum quas. Enim.
+					Error numquam eos accusantium maxime, libero asperiores, delectus nulla dolorem praesentium dolores commodi reprehenderit doloribus? Est tenetur dolorum asperiores laboriosam quaerat reprehenderit a? Tempora, delectus? Rerum reiciendis voluptas cum culpa!
+					riatur ad numquam. Placeat delectus unde ex exercitationem quod nesciunt architecto quaerat laudantium quidem omnis, beatae nulla? Nemo numquam cupiditate quisquam obcaecati commodi.
+					im quaerat explicabo doloremque, nam cum? Fugiat voluptatem nulla expedita sequi harum eum reprehenderit repellat provident hic placeat.
+					</p>
 				</div>
 
-				<div class = "row">
-					<div class = "col-sm-12 col-md-12 text-center">
-						<div class = "about-header-quote">
-							<h3>Sharing a little bit of my story...</h3>
-						</div>
+				<div className="about-statistics">
+					<h3>Statistics</h3>
+					<em>And for those that don't fancy reading</em>
+
+					<div className="statistics-details">
+						<p>Male, 200 years old.</p>
+						<p>Five feet 110 inches</p>
+						<p>Favourite fonts: Roboto</p>
+						<p>Loves to learn new things</p>
 					</div>
 				</div>
-
-				<div class = "row">
-					<div class = "about-general-description ">
-						<div class = "col-sm-8 col-md-8 ">
-							<h2>General Overview</h2>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-						</div>
-					</div>
+				<div className="about-contact ">
+					<Button>Contact</Button>
 				</div>
-
-				<div class = "row">
-					<div class = "statistic-row">
-					<div class = "about-statistic-description">
-						<div class = "col-sm-8 col-md-8">
-							<h2>Statistics</h2>
-							<h5><em>And for those that don't fancy reading:</em></h5>
-							<br/>
-
-							<p>Male, 200 years old.</p>
-							<p>Five feet 110 inches</p>
-							<p>Favorite fonts:Roboto </p>
-							<p>Loves to learn new things</p>
-	
-						</div>
-					</div>
-					</div>
-				</div>
-
-				<div class = "row">
-					<div class = "about-option-buttons">
-						<div class = "col-sm-2 col-md-2">
-							{/* <a href = "#contact" class = "btn btn-default btn-black-border">Contact</a> */}
-							<Button>Contact</Button>
-						</div>
-					</div>
-				</div>
-
-				{/* <!-- Include arrow to show timeline --> */}
 			</div>
-		</div>
+
+	</div>
 
   )
 }

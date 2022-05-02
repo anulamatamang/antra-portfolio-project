@@ -4,18 +4,28 @@
     background-attachment: fixed;
     background-attachment: center center;
     color: white;
-    padding: 60px 30px;
+    padding: 5% 0;
 }
 
-.summary .row {
-    padding: 50px 6%;
-    width: 100%;
+.summary-container {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, 600px); */
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 5em;
+    
 }
 
-.summary h3 {
-    font-family: "Source Sans Pro", Arial, sans-serif;
+.summary-card {
+    display: grid;
+    grid-template-columns: 20% 75%;
+    
 }
 
-.summary p {
-    font-family: "Roboto", Helvetica, serif;
+.summary-card-img {
+    width: 80%;
 }
+
+.summary-description {
+    padding-top: 1em;
+}
+

@@ -1,0 +1,11 @@
+.project-card {
+    
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 0 1em;
+}
