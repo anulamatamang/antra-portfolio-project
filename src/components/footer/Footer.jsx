@@ -7,17 +7,17 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div class='footer'>
-      <div class='container-fluid margin-inline-auto'>
+    <div className='footer'>
+      <div className='container-fluid margin-inline-auto'>
         <div className='social-links-and-contact'>
           <div className='social-links-images'>
-            <img class='social-link-image' src={facebook} />
+            <img className='social-link-image' src={facebook} />
 
-            <img class='social-link-image' src={linkedin} />
+            <img className='social-link-image' src={linkedin} />
 
-            <img class='social-link-image' src={pinterest} />
+            <img className='social-link-image' src={pinterest} />
 
-            <img class='social-link-image' src={email} />
+            <img className='social-link-image' src={email} />
           </div>
 
           <div className='personal-contact'>
@@ -26,20 +26,20 @@ function Footer() {
           </div>
         </div>
 
-        <div class='footer-bottom-row'>
-          <div class='company-information'>
+        <div className='footer-bottom-row'>
+          <div className='company-information'>
             <h3>XXXX</h3>
             <h4>Copyright &copy; 2021</h4>
             <h4>NY</h4>
           </div>
 
-          <div class='home-footer'>
+          <div className='home-footer'>
             <h4>
               <a href='#'>Home</a>
             </h4>
           </div>
 
-          <div class='portfolio-footer'>
+          <div className='portfolio-footer'>
             <h4>
               <a href='#'>Portfolio</a>
             </h4>
@@ -59,7 +59,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div class='resume-footer'>
+          <div className='resume-footer'>
             <h4>
               <a href='#'>Resume</a>
             </h4>
@@ -70,7 +70,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div class='contact-footer'>
+          <div className='contact-footer'>
             <h4>
               <a href='#'>Contact</a>
             </h4>

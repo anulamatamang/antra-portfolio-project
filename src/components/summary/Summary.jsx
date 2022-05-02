@@ -7,14 +7,14 @@ import developerDesign from '../../images/developerdesign.svg';
 
 export default function Summary() {
   return (
-    <div class='summary '>
+    <div className='summary '>
       <div className='container-fluid summary-container margin-inline-auto'>
         <div className='summary-card'>
-          <div class='summary-card-img'>
-            <img class='img-responsive' src={developerDesign} />
+          <div className='summary-card-img'>
+            <img className='img-responsive' src={developerDesign} />
           </div>
 
-          <div class='summary-description'>
+          <div className='summary-description'>
             <h3>Development and Design</h3>
             <p>
               I aim to put my creativity to the test, designing and building
@@ -25,11 +25,11 @@ export default function Summary() {
         </div>
 
         <div className='summary-card'>
-          <div class='summary-card-img'>
-            <img class='img-responsive' src={responsiveDesign} />
+          <div className='summary-card-img'>
+            <img className='img-responsive' src={responsiveDesign} />
           </div>
 
-          <div class='summary-description'>
+          <div className='summary-description'>
             <h3>Responsive Layouts</h3>
             <p>
               Development and design isn't merely putting information on the
@@ -41,11 +41,11 @@ export default function Summary() {
         </div>
 
         <div className='summary-card'>
-          <div class='summary-card-img'>
-            <img class='img-responsive' src={innovationSolutions} />
+          <div className='summary-card-img'>
+            <img className='img-responsive' src={innovationSolutions} />
           </div>
 
-          <div class='summary-description'>
+          <div className='summary-description'>
             <h3>Ideas and Solutions</h3>
             <p>
               There are still many problems that exist in today's society,
@@ -57,11 +57,11 @@ export default function Summary() {
         </div>
 
         <div className='summary-card'>
-          <div class='summary-card-img'>
-            <img class='img-responsive' src={passion} />
+          <div className='summary-card-img'>
+            <img className='img-responsive' src={passion} />
           </div>
 
-          <div class='summary-description'>
+          <div className='summary-description'>
             <h3>Passion and Dedication</h3>
             <p>
               With my profound interest and commitment to my field of study, my

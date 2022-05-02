@@ -5,8 +5,8 @@ import ProjectCard from '../card/ProjectCard';
 
 function Projects() {
   return (
-    <div class='projects' id='projects'>
-      <div class='container-fluid margin-inline-auto'>
+    <div className='projects' id='projects'>
+      <div className='container-fluid margin-inline-auto'>
         <div className='project-container-header'>
           <h2>Projects and Portfolio</h2>
           <em>Sharing my endeavors and passions...</em>

@@ -4,9 +4,9 @@ import Button from '../button/Button';
 
 function Contact() {
   return (
-    <div class='contact'>
-      <div class='container-fluid margin-inline-auto'>
-        <div class='contact-header'>
+    <div className='contact'>
+      <div className='container-fluid margin-inline-auto'>
+        <div className='contact-header'>
           <h1>Contact</h1>
 
           <h4>"XXXXX"</h4>
@@ -14,7 +14,7 @@ function Contact() {
         </div>
 
         <div className='container-fluid contact-body margin-inline-auto'>
-          <div class='contact-instructions'>
+          <div className='contact-instructions'>
             <h2>Reaching out to me</h2>
             <p>
               Don't be afraid to contact me! I'm happy to answer any questions,
@@ -34,35 +34,35 @@ function Contact() {
             <p>XXXXXX@gmail.com</p>
           </div>
 
-          <div class='contact-form-body'>
+          <div className='contact-form-body'>
             <form className='contact-form'>
-              <div class='form-row'>
-                <div class='firstname'>
+              <div className='form-row'>
+                <div className='firstname'>
                   <h4>First Name *</h4>
                   <input type='text' placeholder='First Name' />
                 </div>
 
-                <div class='lastname'>
+                <div className='lastname'>
                   <h4>Last Name *</h4>
                   <input type='text' placeholder='Last Name' />
                 </div>
               </div>
 
-              <div class='email-row'>
-                <div class='email'>
+              <div className='email-row'>
+                <div className='email'>
                   <h4>Email *</h4>
                   <input type='text' placeholder='Email' />
                 </div>
               </div>
 
-              <div class='message-row'>
-                <div class='message'>
+              <div className='message-row'>
+                <div className='message'>
                   <h4>Message *</h4>
                   <textarea placeholder='Message'></textarea>
                 </div>
               </div>
 
-              <div class='btn-container'>
+              <div className='btn-container'>
                 <Button textColor='white'>Submit</Button>
               </div>
             </form>
